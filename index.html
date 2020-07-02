@@ -1432,22 +1432,22 @@
         .style("display", "none");
 
       d3.csv(
-        "https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vSafGm_gSEK_M6dTEcS3sd2N7CcehHPfg561BJtgzrHClIt5DH79yqHI1LpeOLbbwGob_Xi0kVUdxMB/pub?gid=1590934053&single=true&output=csv"
+        "EduardoData - BlurredRadar.csv"
       ).then(function (data1) {
         d3.csv(
-          "https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vSafGm_gSEK_M6dTEcS3sd2N7CcehHPfg561BJtgzrHClIt5DH79yqHI1LpeOLbbwGob_Xi0kVUdxMB/pub?gid=1868473941&single=true&output=csv"
+          "EduardoData - BlurredRadar-Definitions.csv"
         ).then(function (desc1) {
           d3.csv(
-            "https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vSafGm_gSEK_M6dTEcS3sd2N7CcehHPfg561BJtgzrHClIt5DH79yqHI1LpeOLbbwGob_Xi0kVUdxMB/pub?gid=1038280472&single=true&output=csv"
+            "EduardoData - BlurredRadar-HeroStartups.csv"
           ).then(function (hero_data1) {
             d3.csv(
-              "https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vSafGm_gSEK_M6dTEcS3sd2N7CcehHPfg561BJtgzrHClIt5DH79yqHI1LpeOLbbwGob_Xi0kVUdxMB/pub?gid=595532865&single=true&output=csv"
+              "EduardoData - FLSRADARV2.csv"
             ).then(function (data2) {
               d3.csv(
-                "https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vSafGm_gSEK_M6dTEcS3sd2N7CcehHPfg561BJtgzrHClIt5DH79yqHI1LpeOLbbwGob_Xi0kVUdxMB/pub?gid=1133714981&single=true&output=csv"
+                "EduardoData - FLSRADARV2-Definitions.csv"
               ).then(function (desc2) {
                 d3.csv(
-                  "https://cors-anywhere.herokuapp.com/https://docs.google.com/spreadsheets/d/e/2PACX-1vSafGm_gSEK_M6dTEcS3sd2N7CcehHPfg561BJtgzrHClIt5DH79yqHI1LpeOLbbwGob_Xi0kVUdxMB/pub?gid=1261734015&single=true&output=csv"
+                  "EduardoData - FLSRADARV2-Hero Startups.csv"
                 ).then(function (hero_data2) {
                   // combine datasets:
                   themesWanted = [
